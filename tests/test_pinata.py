@@ -5,9 +5,9 @@ class TestPinata():
 
     @pytest.fixture
     def pinata_inputs(self):
-        api_key = "7a1f59937cb69ffa86f9"     
-        secret_key = "f6bfbb866bbe665dbd325cf88c4c3436debfca419d6d9e81e0bf0e01f3509db1"
-        access_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiIwZTI2NTk0NC1hMTgzLTRlMjgtODA5NS1iYzRkNDZkMmJmYjEiLCJlbWFpbCI6ImdyaXNob24ubmdhbmdhMDFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInBpbl9wb2xpY3kiOnsicmVnaW9ucyI6W3siaWQiOiJGUkExIiwiZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjF9XSwidmVyc2lvbiI6MX0sIm1mYV9lbmFibGVkIjpmYWxzZX0sImF1dGhlbnRpY2F0aW9uVHlwZSI6InNjb3BlZEtleSIsInNjb3BlZEtleUtleSI6Ijg3ZGZkN2Q4Yjk2NzczYzJmMWNmIiwic2NvcGVkS2V5U2VjcmV0IjoiZDdmMWIyY2QyZjRjOTQ2ZWU3ZTc0M2VkZmY0NmUxYzg0MmM4OTE1Yjc2ZjliOTNmZDI3YTgwYjhlYTFiNmVlYiIsImlhdCI6MTY1MjYyOTQzMH0.23CN11cmQSCI1TsJyipVD8e4acBa732yno-IemrvC2U"
+        api_key = ""     
+        secret_key = ""
+        access_token = ""
 
         return {'api_key': api_key, 'secret_key': secret_key, 'access_token': access_token}
 
